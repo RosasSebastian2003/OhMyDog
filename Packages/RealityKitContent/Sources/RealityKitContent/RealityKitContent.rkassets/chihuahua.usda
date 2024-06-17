@@ -1,0 +1,33 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 1.0 (409.60.6)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    def "chihuahua" (
+        active = true
+        prepend references = @chihuahua.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.1, 0.1, 0.1)
+        float3 xformOp:translate = (0, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "chihuahua_1" (
+        active = true
+        prepend references = @usdz/chihuahua.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.07, 0.07, 0.07)
+        float3 xformOp:translate = (0, 0, 0.07146603)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+}
+

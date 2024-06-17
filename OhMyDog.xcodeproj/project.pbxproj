@@ -12,6 +12,11 @@
 		3C81CF012C20B5A60097CF63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81CF002C20B5A60097CF63 /* ContentView.swift */; };
 		3C81CF032C20B5A80097CF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF022C20B5A80097CF63 /* Assets.xcassets */; };
 		3C81CF062C20B5A80097CF63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF052C20B5A80097CF63 /* Preview Assets.xcassets */; };
+		3C81CF142C20B60F0097CF63 /* labrador.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF0F2C20B60F0097CF63 /* labrador.usdz */; };
+		3C81CF152C20B60F0097CF63 /* chihuahua.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF102C20B60F0097CF63 /* chihuahua.usdz */; };
+		3C81CF162C20B60F0097CF63 /* corgi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF112C20B60F0097CF63 /* corgi.usdz */; };
+		3C81CF172C20B60F0097CF63 /* pug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF122C20B60F0097CF63 /* pug.usdz */; };
+		3C81CF182C20B60F0097CF63 /* frenchie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF132C20B60F0097CF63 /* frenchie.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		3C81CF022C20B5A80097CF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C81CF052C20B5A80097CF63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C81CF072C20B5A80097CF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C81CF0F2C20B60F0097CF63 /* labrador.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = labrador.usdz; sourceTree = "<group>"; };
+		3C81CF102C20B60F0097CF63 /* chihuahua.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chihuahua.usdz; sourceTree = "<group>"; };
+		3C81CF112C20B60F0097CF63 /* corgi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = corgi.usdz; sourceTree = "<group>"; };
+		3C81CF122C20B60F0097CF63 /* pug.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pug.usdz; sourceTree = "<group>"; };
+		3C81CF132C20B60F0097CF63 /* frenchie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = frenchie.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		3C81CEF92C20B5A60097CF63 /* OhMyDog */ = {
 			isa = PBXGroup;
 			children = (
+				3C81CF0E2C20B60F0097CF63 /* 3D Models */,
+				3C81CF0D2C20B5CA0097CF63 /* Foundation */,
 				3C81CEFE2C20B5A60097CF63 /* OhMyDogApp.swift */,
 				3C81CF002C20B5A60097CF63 /* ContentView.swift */,
 				3C81CF022C20B5A80097CF63 /* Assets.xcassets */,
@@ -79,6 +91,25 @@
 				3C81CF052C20B5A80097CF63 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3C81CF0D2C20B5CA0097CF63 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3C81CF0E2C20B60F0097CF63 /* 3D Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C81CF0F2C20B60F0097CF63 /* labrador.usdz */,
+				3C81CF102C20B60F0097CF63 /* chihuahua.usdz */,
+				3C81CF112C20B60F0097CF63 /* corgi.usdz */,
+				3C81CF122C20B60F0097CF63 /* pug.usdz */,
+				3C81CF132C20B60F0097CF63 /* frenchie.usdz */,
+			);
+			path = "3D Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,8 +173,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C81CF172C20B60F0097CF63 /* pug.usdz in Resources */,
 				3C81CF062C20B5A80097CF63 /* Preview Assets.xcassets in Resources */,
+				3C81CF162C20B60F0097CF63 /* corgi.usdz in Resources */,
 				3C81CF032C20B5A80097CF63 /* Assets.xcassets in Resources */,
+				3C81CF142C20B60F0097CF63 /* labrador.usdz in Resources */,
+				3C81CF152C20B60F0097CF63 /* chihuahua.usdz in Resources */,
+				3C81CF182C20B60F0097CF63 /* frenchie.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
