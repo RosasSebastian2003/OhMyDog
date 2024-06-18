@@ -7,19 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C089CC42C2159100050C25F /* DogVolumeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CC32C2159100050C25F /* DogVolumeView.swift */; };
+		3C089CC62C215A370050C25F /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CC52C215A370050C25F /* TitleView.swift */; };
+		3C089CC82C215D1D0050C25F /* DogSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CC72C215D1D0050C25F /* DogSelectionView.swift */; };
+		3C089CCC2C215D9C0050C25F /* Dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CCB2C215D9C0050C25F /* Dog.swift */; };
+		3C089CCF2C215F1B0050C25F /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CCE2C215F1B0050C25F /* DogViewModel.swift */; };
+		3C089CD12C215FEE0050C25F /* dog.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CD02C215FEE0050C25F /* dog.json */; };
+		3C089CD52C21C4E00050C25F /* DogDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C089CD42C21C4E00050C25F /* DogDetailView.swift */; };
+		3C089CDB2C21D0FE0050C25F /* Chihuahua.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CD62C21D0FD0050C25F /* Chihuahua.usdz */; };
+		3C089CDC2C21D0FE0050C25F /* Frenchie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CD72C21D0FD0050C25F /* Frenchie.usdz */; };
+		3C089CDD2C21D0FE0050C25F /* Labrador.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CD82C21D0FD0050C25F /* Labrador.usdz */; };
+		3C089CDE2C21D0FE0050C25F /* Corgi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CD92C21D0FD0050C25F /* Corgi.usdz */; };
+		3C089CDF2C21D0FE0050C25F /* Pug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CDA2C21D0FD0050C25F /* Pug.usdz */; };
+		3C089CE12C21D15B0050C25F /* germanShepherd.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C089CE02C21D15B0050C25F /* germanShepherd.usdz */; };
 		3C81CEFD2C20B5A60097CF63 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 3C81CEFC2C20B5A60097CF63 /* RealityKitContent */; };
 		3C81CEFF2C20B5A60097CF63 /* OhMyDogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81CEFE2C20B5A60097CF63 /* OhMyDogApp.swift */; };
 		3C81CF012C20B5A60097CF63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C81CF002C20B5A60097CF63 /* ContentView.swift */; };
 		3C81CF032C20B5A80097CF63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF022C20B5A80097CF63 /* Assets.xcassets */; };
 		3C81CF062C20B5A80097CF63 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF052C20B5A80097CF63 /* Preview Assets.xcassets */; };
-		3C81CF142C20B60F0097CF63 /* labrador.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF0F2C20B60F0097CF63 /* labrador.usdz */; };
-		3C81CF152C20B60F0097CF63 /* chihuahua.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF102C20B60F0097CF63 /* chihuahua.usdz */; };
-		3C81CF162C20B60F0097CF63 /* corgi.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF112C20B60F0097CF63 /* corgi.usdz */; };
-		3C81CF172C20B60F0097CF63 /* pug.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF122C20B60F0097CF63 /* pug.usdz */; };
-		3C81CF182C20B60F0097CF63 /* frenchie.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 3C81CF132C20B60F0097CF63 /* frenchie.usdz */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3C089CC32C2159100050C25F /* DogVolumeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogVolumeView.swift; sourceTree = "<group>"; };
+		3C089CC52C215A370050C25F /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
+		3C089CC72C215D1D0050C25F /* DogSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogSelectionView.swift; sourceTree = "<group>"; };
+		3C089CCB2C215D9C0050C25F /* Dog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dog.swift; sourceTree = "<group>"; };
+		3C089CCE2C215F1B0050C25F /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
+		3C089CD02C215FEE0050C25F /* dog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = dog.json; path = OhMyDog/Foundation/dog.json; sourceTree = SOURCE_ROOT; };
+		3C089CD42C21C4E00050C25F /* DogDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogDetailView.swift; sourceTree = "<group>"; };
+		3C089CD62C21D0FD0050C25F /* Chihuahua.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Chihuahua.usdz; sourceTree = "<group>"; };
+		3C089CD72C21D0FD0050C25F /* Frenchie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Frenchie.usdz; sourceTree = "<group>"; };
+		3C089CD82C21D0FD0050C25F /* Labrador.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Labrador.usdz; sourceTree = "<group>"; };
+		3C089CD92C21D0FD0050C25F /* Corgi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Corgi.usdz; sourceTree = "<group>"; };
+		3C089CDA2C21D0FD0050C25F /* Pug.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = Pug.usdz; sourceTree = "<group>"; };
+		3C089CE02C21D15B0050C25F /* germanShepherd.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = germanShepherd.usdz; sourceTree = "<group>"; };
 		3C81CEF72C20B5A60097CF63 /* OhMyDog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhMyDog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C81CEFB2C20B5A60097CF63 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		3C81CEFE2C20B5A60097CF63 /* OhMyDogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhMyDogApp.swift; sourceTree = "<group>"; };
@@ -27,11 +48,6 @@
 		3C81CF022C20B5A80097CF63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C81CF052C20B5A80097CF63 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3C81CF072C20B5A80097CF63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3C81CF0F2C20B60F0097CF63 /* labrador.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = labrador.usdz; sourceTree = "<group>"; };
-		3C81CF102C20B60F0097CF63 /* chihuahua.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = chihuahua.usdz; sourceTree = "<group>"; };
-		3C81CF112C20B60F0097CF63 /* corgi.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = corgi.usdz; sourceTree = "<group>"; };
-		3C81CF122C20B60F0097CF63 /* pug.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = pug.usdz; sourceTree = "<group>"; };
-		3C81CF132C20B60F0097CF63 /* frenchie.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = frenchie.usdz; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +62,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C089CCA2C215D890050C25F /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				3C089CCD2C215F000050C25F /* Data */,
+				3C089CCE2C215F1B0050C25F /* DogViewModel.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		3C089CCD2C215F000050C25F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				3C089CD02C215FEE0050C25F /* dog.json */,
+				3C089CCB2C215D9C0050C25F /* Dog.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
 		3C81CEEE2C20B5A60097CF63 = {
 			isa = PBXGroup;
 			children = (
@@ -66,9 +100,13 @@
 		3C81CEF92C20B5A60097CF63 /* OhMyDog */ = {
 			isa = PBXGroup;
 			children = (
+				3C089CCA2C215D890050C25F /* Foundation */,
 				3C81CF0E2C20B60F0097CF63 /* 3D Models */,
-				3C81CF0D2C20B5CA0097CF63 /* Foundation */,
 				3C81CEFE2C20B5A60097CF63 /* OhMyDogApp.swift */,
+				3C089CC52C215A370050C25F /* TitleView.swift */,
+				3C089CC32C2159100050C25F /* DogVolumeView.swift */,
+				3C089CD42C21C4E00050C25F /* DogDetailView.swift */,
+				3C089CC72C215D1D0050C25F /* DogSelectionView.swift */,
 				3C81CF002C20B5A60097CF63 /* ContentView.swift */,
 				3C81CF022C20B5A80097CF63 /* Assets.xcassets */,
 				3C81CF072C20B5A80097CF63 /* Info.plist */,
@@ -93,21 +131,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3C81CF0D2C20B5CA0097CF63 /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
 		3C81CF0E2C20B60F0097CF63 /* 3D Models */ = {
 			isa = PBXGroup;
 			children = (
-				3C81CF0F2C20B60F0097CF63 /* labrador.usdz */,
-				3C81CF102C20B60F0097CF63 /* chihuahua.usdz */,
-				3C81CF112C20B60F0097CF63 /* corgi.usdz */,
-				3C81CF122C20B60F0097CF63 /* pug.usdz */,
-				3C81CF132C20B60F0097CF63 /* frenchie.usdz */,
+				3C089CD62C21D0FD0050C25F /* Chihuahua.usdz */,
+				3C089CD92C21D0FD0050C25F /* Corgi.usdz */,
+				3C089CD72C21D0FD0050C25F /* Frenchie.usdz */,
+				3C089CE02C21D15B0050C25F /* germanShepherd.usdz */,
+				3C089CD82C21D0FD0050C25F /* Labrador.usdz */,
+				3C089CDA2C21D0FD0050C25F /* Pug.usdz */,
 			);
 			path = "3D Models";
 			sourceTree = "<group>";
@@ -173,13 +205,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C81CF172C20B60F0097CF63 /* pug.usdz in Resources */,
+				3C089CDF2C21D0FE0050C25F /* Pug.usdz in Resources */,
+				3C089CDD2C21D0FE0050C25F /* Labrador.usdz in Resources */,
 				3C81CF062C20B5A80097CF63 /* Preview Assets.xcassets in Resources */,
-				3C81CF162C20B60F0097CF63 /* corgi.usdz in Resources */,
+				3C089CD12C215FEE0050C25F /* dog.json in Resources */,
+				3C089CDB2C21D0FE0050C25F /* Chihuahua.usdz in Resources */,
+				3C089CDE2C21D0FE0050C25F /* Corgi.usdz in Resources */,
+				3C089CDC2C21D0FE0050C25F /* Frenchie.usdz in Resources */,
 				3C81CF032C20B5A80097CF63 /* Assets.xcassets in Resources */,
-				3C81CF142C20B60F0097CF63 /* labrador.usdz in Resources */,
-				3C81CF152C20B60F0097CF63 /* chihuahua.usdz in Resources */,
-				3C81CF182C20B60F0097CF63 /* frenchie.usdz in Resources */,
+				3C089CE12C21D15B0050C25F /* germanShepherd.usdz in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +224,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C089CCF2C215F1B0050C25F /* DogViewModel.swift in Sources */,
+				3C089CC82C215D1D0050C25F /* DogSelectionView.swift in Sources */,
 				3C81CF012C20B5A60097CF63 /* ContentView.swift in Sources */,
+				3C089CCC2C215D9C0050C25F /* Dog.swift in Sources */,
+				3C089CC42C2159100050C25F /* DogVolumeView.swift in Sources */,
 				3C81CEFF2C20B5A60097CF63 /* OhMyDogApp.swift in Sources */,
+				3C089CD52C21C4E00050C25F /* DogDetailView.swift in Sources */,
+				3C089CC62C215A370050C25F /* TitleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

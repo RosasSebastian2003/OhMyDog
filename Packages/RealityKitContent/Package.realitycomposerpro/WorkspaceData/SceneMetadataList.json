@@ -34,6 +34,18 @@
 
     ]
   },
+  "2CFE1773-DFB4-4EF5-93F6-299ADF470E24" : {
+    "objectMetadataList" : [
+      [
+        "2CFE1773-DFB4-4EF5-93F6-299ADF470E24",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "03E02005-EFA6-48D6-8A76-05B2822A74E9" : {
     "objectMetadataList" : [
 
@@ -68,6 +80,18 @@
 
     ]
   },
+  "352AC165-9400-4D76-94DE-AC05806B25CD" : {
+    "objectMetadataList" : [
+      [
+        "352AC165-9400-4D76-94DE-AC05806B25CD",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "440DE5B4-E4E4-459B-AABF-9ACE96319272" : {
     "objectMetadataList" : [
       [
@@ -92,10 +116,46 @@
       }
     ]
   },
+  "A46D3A3F-530B-40A5-A216-18A1B6559FE5" : {
+    "objectMetadataList" : [
+      [
+        "A46D3A3F-530B-40A5-A216-18A1B6559FE5",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
   "A69842FF-5679-4AA5-A984-4241FAABE829" : {
     "objectMetadataList" : [
       [
         "A69842FF-5679-4AA5-A984-4241FAABE829",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "B00A754C-6FC9-4869-8B23-ED3147C39AA3" : {
+    "objectMetadataList" : [
+      [
+        "B00A754C-6FC9-4869-8B23-ED3147C39AA3",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "BF03B58D-6B6C-4CE8-8111-D9989FF505E1" : {
+    "objectMetadataList" : [
+      [
+        "BF03B58D-6B6C-4CE8-8111-D9989FF505E1",
         "Root"
       ],
       {
@@ -120,6 +180,30 @@
     "objectMetadataList" : [
       [
         "D5FBD480-6797-4E82-9247-E65F19BE91A5",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "E39B1F74-DD36-452C-BA50-2FCF10576460" : {
+    "objectMetadataList" : [
+      [
+        "E39B1F74-DD36-452C-BA50-2FCF10576460",
+        "Root"
+      ],
+      {
+        "isExpanded" : true,
+        "isLocked" : false
+      }
+    ]
+  },
+  "FBCD25B9-D9F3-48CB-9BB6-22A9F1545016" : {
+    "objectMetadataList" : [
+      [
+        "FBCD25B9-D9F3-48CB-9BB6-22A9F1545016",
         "Root"
       ],
       {

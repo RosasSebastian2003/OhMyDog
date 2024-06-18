@@ -9,9 +9,19 @@ import SwiftUI
 
 @main
 struct OhMyDogApp: App {
+    @State private var dogViewModel = DogViewModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environment(dogViewModel)
         }
+        
+        WindowGroup(id: "volumeView") {
+            DogVolumeView()
+                .environment(dogViewModel)
+        }
+        .windowStyle(.volumetric)
+        .defaultSize(width: 1, height: 1, depth: 1, in: .meters)
     }
 }

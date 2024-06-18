@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "breed": "Chihuahua",
+        "description": "Pequeño, valiente y lleno de energía. Los Chihuahuas son conocidos por su gran personalidad en un cuerpo pequeño."
+    },
+    {
+        "id": 2,
+        "breed": "Pug",
+        "description": "Cariñoso, amistoso y encantador. Los pugs son famosos por su cara arrugada y su naturaleza juguetona."
+    },
+    {
+        "id": 3,
+        "breed": "Corgi",
+        "description": "Inteligente, activo y afectuoso. Los Corgis son perros pastores con patas cortas y un carácter leal."
+    },
+    {
+        "id": 4,
+        "breed": "Labrador",
+        "description": "Amistoso, extrovertido y confiable. Los Labradores son populares por su naturaleza cariñosa y su capacidad para el trabajo."
+    },
+    {
+        "id": 5,
+        "breed": "Frenchie",
+        "description": "Juguetón, adaptable y afectuoso. Los Frenchies tienen un carácter dulce y una estructura compacta."
+    }
+]
+
+ 
