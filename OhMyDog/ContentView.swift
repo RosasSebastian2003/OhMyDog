@@ -12,7 +12,7 @@ import RealityKitContent
 struct ContentView: View {
     var body: some View {
         VStack {
-            DogSelectionView()
+            TitleView()
         }
         .padding()
     }

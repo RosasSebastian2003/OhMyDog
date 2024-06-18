@@ -14,17 +14,12 @@ struct TitleView: View {
         NavigationStack {
             VStack {
                 Spacer()
-                Text("Bienvenido al Sistema Solar!")
-                    .font(.extraLargeTitle2)
+                Text("Oh My Dog!")
+                    .font(.extraLargeTitle)
                 
-                
-                Model3D(named: "dogs", bundle: realityKitContentBundle)
-                    .padding(.vertical, 75)
-                
-                
-                NavigationLink(destination: EmptyView()) {
-                    Text("Ver Planetas")
-                        .font(.extraLargeTitle)
+                NavigationLink(destination: DogSelectionView().clipShape(RoundedRectangle(cornerRadius: 25.0)).ignoresSafeArea()) {
+                    Text("Ver Perros")
+                        .font(.extraLargeTitle2)
                         .padding()
                 }
                 
